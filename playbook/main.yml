@@ -1,0 +1,9 @@
+---
+- hosts: test
+  remote_user: root
+  tasks:
+  
+   - apt: name={{item}} state=latest
+     with_items: 
+       - iftop
+       - htop

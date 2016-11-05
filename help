@@ -1,0 +1,7 @@
+
+
+
+
+#выполнить команду "ls ~" для хостов перечисленных в файле ~/.config/ansible/hosts
+
+ansible -i ~/.config/ansible/hosts all -a "ls ~"                                                                                            

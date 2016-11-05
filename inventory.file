@@ -1,0 +1,2 @@
+[test]
+default ansible_ssh_host=ansible ansible_ssh_port=222

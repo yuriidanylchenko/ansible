@@ -1,0 +1,44 @@
+---
+- hosts: test
+  remote_user: root
+  vars:
+     file_dir: /home/yurii/skills/ansible/files
+     home_dir: /home/yurii
+  tasks:
+
+      
+     - name: install programs
+       apt: name={{ item }} state=present update_cache=yes
+       with_items:
+         - openvpn
+         - ssh
+
+
+     - name: copy files 
+       copy: src={{ file_dir }}/adminvpn.conf dest=/etc/openvpn/client.conf
+
+     - name: create directory 
+       file: path={{ item }} state=directory mode=0700 
+       with_items: 
+         - /etc/openvpn/onat_keys
+         - .ssh
+
+     - name: copy vpn files 
+       copy: src={{ file_dir }}/admin_vpn/conf/{{ item }} dest=/etc/openvpn/onat_keys/
+       with_items:
+         - ca.crt 
+         - ta.key 
+         - yurii.d.crt
+         - yurii.d.csr
+         - yurii.d.key
+
+     - name: copy ssh create
+       copy: src={{ file_dir }}/{{ item }} dest={{ home_dir }}/.ssh/
+       with_items:
+         - config
+         - id_rsa
+         - id_rsa.pub    
+         
+
+         
+

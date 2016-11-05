@@ -1,0 +1,93 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 14 (0xe)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UA, ST=OD, L=Odessa, O=ONAT, CN=admin-vpn.onat.edu.ua/name=admin-vpn/emailAddress=admin@onat.edu.ua
+        Validity
+            Not Before: Sep 27 07:31:34 2016 GMT
+            Not After : Sep 25 07:31:34 2026 GMT
+        Subject: C=UA, ST=OD, L=Odessa, O=ONAT, CN=yurii.d/emailAddress=admin@onat.edu.ua
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bf:a0:ac:c6:fd:a4:8e:ca:7b:dc:a4:bb:75:8a:
+                    1d:89:fb:ea:cb:87:cc:43:35:c9:fc:91:4a:d6:b8:
+                    1c:fa:18:63:dd:f7:45:98:ab:9f:2e:ab:b6:f0:b0:
+                    7a:6a:f7:dc:a2:f5:d9:be:cb:09:74:1e:3e:92:cd:
+                    3d:23:e4:52:9a:85:05:3b:35:0c:16:63:d6:31:fa:
+                    98:d7:72:9f:89:c9:1d:72:1e:e5:c3:ac:bd:ca:8a:
+                    6b:9f:fb:79:95:a2:88:5d:15:eb:80:d8:34:d6:5a:
+                    1c:86:d3:ad:c1:c7:a3:5c:db:6d:2c:3c:f8:da:d8:
+                    99:02:ef:3e:ca:80:b4:01:4b:5b:e6:d3:c4:64:db:
+                    26:26:77:00:16:cf:7b:14:bc:f1:66:d3:9b:85:6b:
+                    70:0a:54:a0:d7:b3:ba:f4:68:10:92:8d:55:a9:42:
+                    09:8e:db:71:37:70:58:af:20:09:2e:c3:5f:0e:26:
+                    64:09:53:dd:5e:c5:74:fe:8c:0e:de:09:4a:62:63:
+                    88:63:9d:67:8e:7c:90:49:c1:b6:e1:dc:44:93:7c:
+                    d9:7f:32:43:da:0b:62:b7:f2:0e:5f:5b:f2:85:6a:
+                    00:06:10:c3:01:58:4c:9e:b4:a8:fb:36:25:ad:4d:
+                    db:af:18:a8:e8:63:1f:05:da:88:14:ef:af:14:2e:
+                    2b:3d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                D6:73:4C:50:21:02:EC:E5:60:EB:B0:62:24:22:E5:B2:6C:48:95:44
+            X509v3 Authority Key Identifier: 
+                keyid:C5:9A:6F:6F:8C:CB:82:2F:1D:EA:2D:9B:D1:C0:1E:51:DB:FD:42:BA
+                DirName:/C=UA/ST=OD/L=Odessa/O=ONAT/CN=admin-vpn.onat.edu.ua/name=admin-vpn/emailAddress=admin@onat.edu.ua
+                serial:80:F8:F5:6D:C6:0A:FF:B4
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         ad:7b:24:cd:e3:d2:93:38:06:72:ce:08:40:82:e1:04:bd:36:
+         3a:ec:08:b2:ab:cf:ab:ab:26:10:1f:53:64:52:5d:69:66:86:
+         d2:af:41:08:57:7b:b7:3c:e3:13:b3:69:5c:41:31:0c:cd:f7:
+         68:43:11:c5:01:0d:a0:a5:6d:3a:af:43:71:77:c8:e4:80:79:
+         d0:89:bb:de:14:3c:63:1a:84:dc:a6:3b:5f:e7:3a:9e:b2:8e:
+         cc:d3:30:5c:54:f3:f7:e2:f3:c9:54:e4:85:99:f8:eb:51:51:
+         90:ea:0e:a8:f8:cf:b3:e5:44:bb:f6:01:11:6a:5f:04:75:28:
+         97:cc:f4:f1:76:a4:ec:ac:4b:f7:48:82:94:cf:ea:5f:fc:0b:
+         db:ae:a2:15:34:ac:8f:4d:ac:b8:50:02:e3:84:7c:52:57:67:
+         79:c5:0f:7c:7a:5f:8b:cc:89:ef:a2:ce:b3:77:d9:8d:5f:85:
+         3d:b2:b3:99:ae:3b:ff:de:64:74:ac:41:40:1f:b2:30:86:19:
+         bb:be:0b:54:a9:ca:d6:71:ce:67:5a:d8:59:2d:a8:e8:75:e1:
+         06:15:d0:e6:95:36:79:91:f5:a5:6e:5e:42:fb:bc:b6:1e:ff:
+         93:28:26:73:59:6f:62:a5:d2:51:3e:57:79:db:f6:d2:fb:54:
+         47:09:a5:6a
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBDjANBgkqhkiG9w0BAQUFADCBkDELMAkGA1UEBhMCVUEx
+CzAJBgNVBAgTAk9EMQ8wDQYDVQQHEwZPZGVzc2ExDTALBgNVBAoTBE9OQVQxHjAc
+BgNVBAMTFWFkbWluLXZwbi5vbmF0LmVkdS51YTESMBAGA1UEKRMJYWRtaW4tdnBu
+MSAwHgYJKoZIhvcNAQkBFhFhZG1pbkBvbmF0LmVkdS51YTAeFw0xNjA5MjcwNzMx
+MzRaFw0yNjA5MjUwNzMxMzRaMG4xCzAJBgNVBAYTAlVBMQswCQYDVQQIEwJPRDEP
+MA0GA1UEBxMGT2Rlc3NhMQ0wCwYDVQQKEwRPTkFUMRAwDgYDVQQDEwd5dXJpaS5k
+MSAwHgYJKoZIhvcNAQkBFhFhZG1pbkBvbmF0LmVkdS51YTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAL+grMb9pI7Ke9yku3WKHYn76suHzEM1yfyRSta4
+HPoYY933RZirny6rtvCwemr33KL12b7LCXQePpLNPSPkUpqFBTs1DBZj1jH6mNdy
+n4nJHXIe5cOsvcqKa5/7eZWiiF0V64DYNNZaHIbTrcHHo1zbbSw8+NrYmQLvPsqA
+tAFLW+bTxGTbJiZ3ABbPexS88WbTm4VrcApUoNezuvRoEJKNValCCY7bcTdwWK8g
+CS7DXw4mZAlT3V7FdP6MDt4JSmJjiGOdZ458kEnBtuHcRJN82X8yQ9oLYrfyDl9b
+8oVqAAYQwwFYTJ60qPs2Ja1N268YqOhjHwXaiBTvrxQuKz0CAwEAAaOCAUcwggFD
+MAkGA1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBD
+ZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU1nNMUCEC7OVg67BiJCLlsmxIlUQwgcUGA1Ud
+IwSBvTCBuoAUxZpvb4zLgi8d6i2b0cAeUdv9QrqhgZakgZMwgZAxCzAJBgNVBAYT
+AlVBMQswCQYDVQQIEwJPRDEPMA0GA1UEBxMGT2Rlc3NhMQ0wCwYDVQQKEwRPTkFU
+MR4wHAYDVQQDExVhZG1pbi12cG4ub25hdC5lZHUudWExEjAQBgNVBCkTCWFkbWlu
+LXZwbjEgMB4GCSqGSIb3DQEJARYRYWRtaW5Ab25hdC5lZHUudWGCCQCA+PVtxgr/
+tDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEF
+BQADggEBAK17JM3j0pM4BnLOCECC4QS9NjrsCLKrz6urJhAfU2RSXWlmhtKvQQhX
+e7c84xOzaVxBMQzN92hDEcUBDaClbTqvQ3F3yOSAedCJu94UPGMahNymO1/nOp6y
+jszTMFxU8/fi88lU5IWZ+OtRUZDqDqj4z7PlRLv2ARFqXwR1KJfM9PF2pOysS/dI
+gpTP6l/8C9uuohU0rI9NrLhQAuOEfFJXZ3nFD3x6X4vMie+izrN32Y1fhT2ys5mu
+O//eZHSsQUAfsjCGGbu+C1SpytZxzmda2FktqOh14QYV0OaVNnmR9aVuXkL7vLYe
+/5MoJnNZb2Kl0lE+V3nb9tL7VEcJpWo=
+-----END CERTIFICATE-----
